@@ -2,6 +2,12 @@
 
 This is a simple user management system implemented in Python. It allows you to add users with their names, emails, and phone numbers, and display the list of added users.
 
+## Demo Video
+
+https://github.com/user-attachments/assets/0b8fd97e-15f4-4f8f-a817-fdeeb187d65b
+
+
+
 ## Features
 
 - Add a new user with name, email, and phone number.
