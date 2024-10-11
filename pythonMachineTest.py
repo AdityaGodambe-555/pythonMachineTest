@@ -34,12 +34,12 @@ def display_users():
     if os.path.isfile('users.csv'):
         with open('users.csv', mode='r', encoding='utf-8') as file:
             print("\nUsers Data:")
-            header = file.readline()  # Read the header line
+            header = file.readline()
             print(f"{'Name':<20} {'Email':<30} {'Phone Number':<15}")  
             print('-' * 65) 
             for line in file:
                 line = line.strip()
-                if line:  # Check if the line is not empty
+                if line:
                     name, email, phone = line.split(',')
                     print(f"{name:<20} {email:<30} {phone:<15}")  
     else:
